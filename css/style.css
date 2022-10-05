@@ -1,0 +1,42 @@
+h1,
+h2 {
+  font-family: "Montserrat";
+  font-size: 3.75rem;
+}
+input {
+  font-family: "Montserrat";
+  height: 5rem !important;
+  font-size: 3.5rem !important;
+  border: 0;
+}
+input:disabled {
+  background: transparent !important;
+}
+input:active {
+  box-shadow: none;
+  border: 0;
+}
+input[type="time"]::-webkit-calendar-picker-indicator {
+  display: none;
+}
+.e-c-base {
+  fill: none;
+  stroke: #b6b6b6;
+  stroke-width: 4px;
+}
+.e-c-progress {
+  fill: none;
+  stroke: black;
+  stroke-width: 4px;
+  transition: stroke-dashoffset 0.1s;
+  
+}
+
+.e-c-pointer {
+  fill: #fff;
+  stroke: black;
+  stroke-width: 2px;
+}
+.row{
+  height: 3rem !important;
+}
