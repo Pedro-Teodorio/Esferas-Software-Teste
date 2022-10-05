@@ -5,7 +5,7 @@ const btn_stop_timer = document.getElementById("btn-stop-timer"); //! Botão de 
 let interval; //! Variavel de Definição do Timer
 let pause = false; //! Variavel de verificação da Pausa
 let totalSeconds = 0; //! Variavel de total de segundos
-let bell = new Audio("./audio/audio_bell.mp3"); //! Variavel que cria um objeto de audio
+let bell = new Audio("/audio/audio_bell.mp3"); //! Variavel que cria um objeto de audio
 let keyPressCount = 0; //! Variavel de verificação de precionamento de tecla
 let clickCount = 0; //! Variavel de verificação de click
 
